@@ -1,0 +1,26 @@
+package String;
+
+public class Reverse_the_words {
+
+	public static void main(String[] args) 
+	{
+		String str= "I love Coding";
+		System.out.println(reverse(str)); 
+
+	}
+	public static String reverse(String s)
+	{
+		String str;
+		for(int i=0;i<s.length();i++)
+		{
+			for(int j=(s.length()-1);j>=0;j--)
+			{
+				str=str+s;
+				
+			}
+			
+			
+		}
+	}
+
+}
