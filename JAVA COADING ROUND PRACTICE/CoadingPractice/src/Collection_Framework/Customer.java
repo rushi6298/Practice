@@ -1,6 +1,6 @@
 package Collection_Framework;
 
-public class Customer 
+public class Customer implements Comparable<Customer>
 {
 	private int custid;
 	private  String city;
@@ -81,6 +81,13 @@ public class Customer
 		
 		
 		
+	}
+	@Override
+	public int compareTo(Customer o) {
+		// TODO Auto-generated method stub
+		//return difference between two customrs
+		
+		return this.custid-o.custid;
 	}
 	
 	
