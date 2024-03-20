@@ -1,4 +1,4 @@
-package PRACTICE_COADING;
+package PRACTICE_COADING_Array;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
